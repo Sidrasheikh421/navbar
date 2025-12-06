@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.secondchild{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+li a{ 
+    display: flex;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+       
+}
+ul{
+    display: inline-flex;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+button{
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    width: 150px;
+    font-size: medium;
+    padding: 10px;
+}
