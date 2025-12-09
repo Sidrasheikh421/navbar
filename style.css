@@ -7,38 +7,50 @@ header{
     display: flex;
     justify-content: space-around;
     text-align: center;
+    width: 100%;
 }
-.secondchild{
+
+.navlink{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    gap: 20px;
+    text-align: center;
 }
-.one{
+li{
     display: flex;
-    align-items: center;
-    justify-content: center;   
+    justify-content: space-around;
+    text-align: center;
 }
+
 li a{ 
     display: flex;
     color: white;
     text-decoration: none;
-    justify-content: center;
     text-align: center;
-       
+    justify-content: space-around;
+    width: 100px;
+    padding: 30px;
 }
-ul{
-    display: inline-flex;
-    padding: 10px;
-    justify-content: space-between;
 
+.btns button{
+    display: flex;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
 }
-#order{
+.btns{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#Order{
+    display: flex;
     background-color: red;
-    display: flex;
-    border-radius: 5px;
-}
-button{
-    display: flex;
-    border-radius: 5px;
     text-align: center;
+}
+.rigth{
+     display: flex;
 }
