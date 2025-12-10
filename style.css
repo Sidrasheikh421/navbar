@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 header{
     background-color: black;
@@ -35,7 +36,7 @@ li a{
     display: flex;
     outline: none;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: transparent;
     color: white;
     border: 1px solid white;
@@ -54,10 +55,42 @@ li a{
 .rigth{
      display: flex;
 }
+.arrow{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
 .banner{
     width: 100%;
 }
 .banner img{
     width: 100%;
 }
-
+.brand{
+    width: 100%;
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    gap: 30px;
+}
+.brand .content{
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+.box1{
+    background-color: white;
+    display: flex;
+}
+.box1 img{
+    width: 100%;
+    
+}
+.box1 .bnts{
+    background-color: white;
+    
+}
