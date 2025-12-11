@@ -73,24 +73,44 @@ li a{
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 20px 50px;
+    padding: 100px 50px;
     gap: 30px;
 }
 .brand .content{
     text-align: center;
 }
 .container{
+    background-color: black;
     display: flex;
-}
-.box1{
+    justify-content: center;
+    gap: 30px;
+} 
+.box{
     background-color: white;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-.box1 img{
-    width: 100%;
-    
+
+
+.box button{
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 20px 30px;
 }
-.box1 .bnts{
-    background-color: white;
-    
+.btns{
+    gap: 30px;
+    display: flex;
 }
+
+#salt{
+    font-family: fantasy;
+}
+
+
+
+
