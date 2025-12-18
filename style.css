@@ -9,12 +9,15 @@ header{
     justify-content: space-around;
     text-align: center;
     width: 100%;
+    align-items: center;
 }
 
 .navlink{
     display: flex;
     gap: 10px;
     align-items: center;
+    height: 100%;
+
 }
 li{
     display: flex;
@@ -29,7 +32,6 @@ li a{
     align-items: center;
     justify-content: space-around;
     width: 100px;
-    padding: 40px;
 }
 
 .btns button{
@@ -86,13 +88,15 @@ li a{
     gap: 30px;
 } 
 .box{
-    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
+.box img{
+    background-color: white;
 
+}
 
 .one{
     outline: none;
