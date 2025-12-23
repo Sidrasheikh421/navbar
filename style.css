@@ -129,20 +129,28 @@ li a{
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 40px;
 
 }
 .franchises .isb{
     display: flex;
     gap: 100px;
     flex-direction: row;
-    
-    
+    justify-content: space-around;  
+} 
+
+.isb{
+     display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 30px 20px;
 }
-#order{
+.isb img{
     display: flex;
     flex-direction: column;
-    order: 1;   
+    order: 2;
+    gap: 100px;  
+    padding-left: 30px 20px;
 }
 button{
     border-radius: 40px;
@@ -154,6 +162,65 @@ button{
     padding: 20px 40px;
     border: 1px solid white;
 }
+.faisalabad{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 230px;
+    padding-right: 30px 20px;
+}
+.faisal img{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding-left: 30px 20px; 
 
+}
+.fasialcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding-right:10px ;
+}
+.bahawalpur{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 230px;
+}
+.bahawalcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 30px 20px;
+}
+.bahawal img{
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    gap: 100px;
+}
+#heading{
+    color: red;
+}
+.ExpressFranchises{
+    background-color: black;
+    color: white;
+    width: 100%;
+
+
+}
+.Expresscontent{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    text-align: center;
+
+}
+.sargodha img{
+    display: flex;
+    
+    
+}
 
 
