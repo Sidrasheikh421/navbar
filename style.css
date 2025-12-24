@@ -149,7 +149,7 @@ li a{
     display: flex;
     flex-direction: column;
     order: 2;
-    gap: 100px;  
+    gap: 230px;  
     padding-left: 30px 20px;
 }
 button{
@@ -217,10 +217,142 @@ button{
     text-align: center;
 
 }
-.sargodha img{
+.row{
     display: flex;
-    
+    gap: 80px;
+    padding: 10px;
+}
+.imgsize{
+  width: 400px;
+}
+.sargodha{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 20px;
+}
+.sargodha img{
+    width: 100%;
+}
+/* .sargodha button{
+    width: 30%;
+    border-radius: 50px;
+} */
+.jhelum{
+     display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 20px;
+}
+.jhelum img{
+      width: 100%;
+}
+.faisaltown{
+     display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 20px;
+}
+.faisaltown img{
+    width: 100%;
+}
+.DHA{
+     display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 20px;
     
 }
+.DHA img{
+    width: 100%;
+}
+.Bahriatown{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 20px;
+}
+.Bahriatown img{
+    width: 100%;
+}
+.gujarkhan{
+     display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 20px;
+}
+.gujarkhan img{
+    width: 100%;
+}
+.lahore{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 20px;
+}
+.lahore img{
+    width: 100%;
+}
+.gujrat{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 20px;
+}
+.gujrat img{
+    width: 100%;
+}
+.sahiwal{
+      display: flex;
+     flex-direction: column;
+     width: 30%;
+     gap: 20px;
+}
+.sahiwal img{
+    width: 100%;
+}
+.burewala{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     width: 30%;
+     gap: 20px;
+
+} 
+.burewala img{
+    width: 100%;
+     align-items: center;
+    justify-content: center; 
+}
+.Villagefranchise{
+    background-color: black;
+    color: white;
+    width: 100%;
+    gap: 30px;
+}
+.villagecontent{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.village{
+    display: flex;
+    gap: 80px;
+    padding: 30px;
+
+}
+.village img{
+    width: 100%;
+}
+.village .gujranwala{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
+
 
 
