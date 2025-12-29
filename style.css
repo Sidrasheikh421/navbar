@@ -36,14 +36,9 @@ li a{
 
 .btns button{
     display: flex;
-    outline: none;
-    border: none;
-    border-radius: 10px;
-    background-color: transparent;
-    color: white;
-    border: 1px solid white;
-    padding: 10px 20px;
+    border-radius: 30px;
 }
+
 .btns{
     display: flex;
     gap: 20px;
@@ -234,10 +229,14 @@ button{
 .sargodha img{
     width: 100%;
 }
-/* .sargodha button{
-    width: 30%;
-    border-radius: 50px;
-} */
+#button{
+    display: flex;
+    padding: 10px;
+    border-radius:30px;
+    outline: none;
+    border: none;
+    border: 1px solid white;
+}
 .jhelum{
      display: flex;
     flex-direction: column;
@@ -347,12 +346,34 @@ button{
 .village img{
     width: 100%;
 }
-.village .gujranwala{
+.gujranwalacontent{
     display: flex;
     text-align: center;
     flex-direction: column;
-
+    padding: 30px;
+    order: 5;
 }
+.location{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.locationcontent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+}
+.card{
+      display: flex;
+      gap: 80px;
+      padding: 30px;
+      width: 30%;
+      background-color: white;
+      color: black;
+}
+
 
 
 
