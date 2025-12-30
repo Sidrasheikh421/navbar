@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face{
+    font-family: futurak;
+    src: url("./font/futurablack-bt.ttf");
+}
+@font-face{
+    font-family: inter;
+    src: url("./font/Inter-Regular.otf");
+}
 header{
     background-color: black;
     display: flex;
@@ -103,11 +111,8 @@ li a{
     display: flex;
     flex-direction: row;
 }
-
-
-
-#salt{
-    font-family: fantasy;
+#font{
+    font-family: futurak;
 }
 /* Franchise section*/
 .franchises{
@@ -363,17 +368,86 @@ button{
     flex-direction: column;
     text-align: center;
     align-items: center;
+    gap: 40px;
+}
+.locationrow{
+    display: flex;
+    width: 100%;
+    gap: 100px;
+}
+.locationcard{
+    display: flex;
     gap: 30px;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    padding: 60px 80px;
 }
-.card{
-      display: flex;
-      gap: 80px;
-      padding: 30px;
-      width: 30%;
-      background-color: white;
-      color: black;
+.card1{
+    background-color: white;
+    color: black; 
+    width: 30%;
+    border-radius: 4px;
+    text-align: center;
+    padding: 30px 32px;
+    justify-content: center; 
+    gap: 60px;
 }
+.card2{
+    background-color: white;
+    color: black; 
+    width: 30%;
+    border-radius: 4px;
+    text-align: center;
+    padding: 30px 32px;
+    justify-content: center; 
+    gap: 60px;
+}
+.card3{
+    background-color: white;
+    color: black; 
+    width: 30%;
+    border-radius: 4px;
+    text-align: center;
+    padding: 30px 32px;
+    justify-content: center; 
+    gap: 60px;
+}
+.card4{
+    background-color: white;
+    color: black; 
+    width: 30%;
+    border-radius: 4px;
+    text-align: center;
+    padding: 30px 32px;
+    justify-content: center; 
+    gap: 60px;
+}
+.card5{
+    background-color: white;
+    color: black;
+    width: 30%;
+    border-radius: 4px;
+    text-align: center;
+    padding: 30px 32px;
+    justify-content: center;
+    gap: 60px;
 
+
+}
+.card6{
+    background-color: white;
+    color: black; 
+    width: 30%;
+    border-radius: 4px;
+    text-align: center;
+    padding: 30px 32px;
+    justify-content: center; 
+    gap: 60px;
+}
+#inter{
+    font-family: inter;
+}
 
 
 
