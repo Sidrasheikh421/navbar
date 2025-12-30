@@ -431,9 +431,7 @@ button{
     text-align: center;
     padding: 30px 32px;
     justify-content: center;
-    gap: 60px;
-
-
+    gap: 60px; 
 }
 .card6{
     background-color: white;
@@ -448,6 +446,20 @@ button{
 #inter{
     font-family: inter;
 }
+/* footer section start */
+footer{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.footerimg{
+    width: 20%;
+}
+.footerimg img{
+    width: 100%;
+}
+/* footer section end */
 
 
 
